@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Authorisation</title>
+</head>
+
+<body>
+  <h1>CarWorld</h1>
+
+  <div>
+    <ul>
+      <li><a href="../index.html">Main page</a></li>
+      <li><a href="registration.html">Registration</a></li>
+      <li><a href="">Authorisation</a></li>
+      <li><a href="search.html">Search</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <form action="https://tests.fomenko.top/echo/index.php" method="get">
+
+      <fieldset>
+        <legend>Authorisation form:</legend>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="Enter Your email">
+        </div>
+
+        <div>
+          <label for="password">Password</label>
+          <input id="password" type="password" name="password" placeholder="Enter Your password" minlength="5"
+            maxlength="12">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Actions:</legend>
+        <button type="submit">Save password</button>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+
+    </form>
+  </div>
+</body>
+
+</html>
